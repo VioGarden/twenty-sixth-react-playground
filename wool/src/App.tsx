@@ -61,13 +61,13 @@ function App() {
           ))}
           {selectionResult === Result.Wrong && <div className='wrong'>Wrong Answer</div>}
           {selectionResult === Result.Correct && <div className='correct'>Correct!</div>}
-        <div className="prev-answer">
-          <div className="prev-color">
-            {previousAnswer}
-          </div>
-          <div className="prev-text">
-            {previousAnswer}
-          </div>
+        <div className="prev-answer"
+          style={{background: previousAnswer}}>
+            <div className="prev-text">
+               Previous
+              <br></br>
+              {previousAnswer}
+            </div>
         </div>
       </div>
     </div>
