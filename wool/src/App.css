@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.guess {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button + button {
+  margin-left: 20px;
+}
+
+.wrong {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+.correct {
+  color: green;
+  font-size: 24px;
+  text-align: center;
+}
+
+.prev-answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  border: 2px solid red;
+  width: 280px;
+  height: 100px;
+}
+
+.prev-color{
+  border: 2px solid orange;
+}
+
+.prev-text {
+  border: 2px solid purple;
+}
